@@ -1,7 +1,9 @@
 import * as oauth from 'openid-client';
 
-const CLIENT_ID = '23PZBH';
-const REDIRECT_URI = 'http://localhost:8083/';
+//const CLIENT_ID = '23PZBH';
+//const REDIRECT_URI = 'http://localhost:8083/';
+const CLIENT_ID = '23PZVW';
+const REDIRECT_URI = 'https://jvns-fitbit-graph.netlify.app/';
 
 const as = {
     issuer: 'https://www.fitbit.com',
