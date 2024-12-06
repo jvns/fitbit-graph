@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitbit OAuth & HRV Data</title>
+    <script src="chart.umd.min.js"> </script>
+    <link rel="stylesheet" href="style.css">
+
+<script type="importmap">
+{
+  "imports": {
+    "jose": "./node_modules/jose/dist/browser/index.js",
+    "jose/errors": "./node_modules/jose/dist/browser/util/errors.js",
+    "oauth4webapi": "./node_modules/oauth4webapi/build/index.js",
+    "openid-client": "./node_modules/openid-client/build/index.js"
+  }
+}
+</script>
+</head>
+<body>
+  <h1>Fitbit HRV Data Viewer</h1>
+  <div id="loginSection">
+    <button onclick="startAuth()">Login with Fitbit</button>
+  </div>
+<div style="height: 300px">
+    <canvas id="hrvChart"></canvas>
+</div>
+<div style="height: 300px">
+    <canvas id="heartRateChart"></canvas>
+</div>
+</body>
+<script type="module" src="script.js"></script>
+</html>
