@@ -61,6 +61,7 @@ async function handleCallback() {
 
         sessionStorage.setItem('access_token', tokens.access_token);
         sessionStorage.removeItem('code_verifier');
+        window.history.pushState({}, document.title, '/');
         await displayAllData();
     } catch (error) {
         console.error('Auth error:', error);
