@@ -1,4 +1,4 @@
-import * as oauth from './openid-client.js';
+import * as oauth from './openid-client-6.1.7.js';
 
 //const CLIENT_ID = '23PZBH';
 //const REDIRECT_URI = 'http://localhost:8083/';
