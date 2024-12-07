@@ -1,4 +1,6 @@
-import * as oauth from './openid-client-6.1.7.js';
+import * as oauth from './js/openid-client-6.1.7.js';
+import { Chart, registerables } from "./js/chart.js-4.4.7.js";
+Chart.register(...registerables);
 
 //const CLIENT_ID = '23PZBH';
 //const REDIRECT_URI = 'http://localhost:8083/';

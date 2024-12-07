@@ -1,2 +1,2 @@
 mkdir public
-cp -r *.html *.js *.css public
+cp -r *.html *.js *.css js/ public

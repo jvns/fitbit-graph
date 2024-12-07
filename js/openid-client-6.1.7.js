@@ -4365,3 +4365,4 @@ export {
   useCodeIdTokenResponseType,
   useJwtResponseMode
 };
+//# sourceMappingURL=openid-client-6.1.7.js.map
